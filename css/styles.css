@@ -209,7 +209,7 @@ header img{
     height: 48px;
     background-color: var(--off-white);
     /*SOMBRAS*/
-    box-shadow: 0p 4p 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
     border-radius: 5px;
     font-size: 1.4rem;
@@ -217,13 +217,7 @@ header img{
     text-decoration: none;
     color: var(--black);
 }
-.header--button span{
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg');
-}
+
 .header--title-container input{
     margin-top: 30px;
     width: 300px;
@@ -507,13 +501,7 @@ h3{
     color: var(--black);
     font-family: "DM Sans", sans-serif;
 }
-.plan-card--ca span{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url('./assets/icons/orange-right-arrow.svg');
-    vertical-align: text-bottom;
-}
+
 /*FOOTER*/
 footer{
     display: flex;/*pone al costado cada vaina*/
