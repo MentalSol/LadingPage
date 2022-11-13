@@ -542,3 +542,21 @@ footer .left ul{
     text-decoration: none;
     color: var(--just-white);
 }
+.container1 {
+     font-family: arial;
+     font-size: 24px;
+     margin: 25px;
+     height: 400px;
+
+
+     /* Center child horizontally*/
+     display: flex;
+     justify-content: center;
+ }
+.child {
+    min-width: 600px;
+    height: 100px;
+
+    /* Center horizontally*/
+    margin: 0 auto;
+}
